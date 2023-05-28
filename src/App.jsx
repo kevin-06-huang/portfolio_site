@@ -1,14 +1,12 @@
 import { createRoot } from "react-dom/client";
+import { StrictMode } from "react";
+import Navbar from "./components/Navbar";
 
 const App = () => {
   return (
-    <div>
-      Template React App
-      <p>
-        Successfully Deployed <code>A React application</code> to Netlify with
-        CircleCI
-      </p>
-    </div>
+    <StrictMode>
+      <Navbar />
+    </StrictMode>
   );
 };
 
