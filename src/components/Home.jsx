@@ -25,7 +25,7 @@ const Home = () => {
         <div className="bragging-point bottom-right">
           <div className="img normalization"></div>
           <h2 className="description">
-            I am still working on Testing!
+            I&apos;m still working on Testing!
           </h2>
         </div>
       </div>
