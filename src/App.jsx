@@ -2,6 +2,7 @@ import { createRoot } from "react-dom/client";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { StrictMode } from "react";
 import Navbar from "./components/Navbar";
+import "./stylesheets/styles.css";
 
 const App = () => {
   return (
