@@ -1,13 +1,20 @@
+import { useState } from "react";
 import { Link } from "react-router-dom";
 import "../stylesheets/navbar.css";
 
 const Navbar = () => {
+  const [isNavExpanded, setIsNavExpanded] = useState(false);
   return (
     <nav className="navigation">
       <Link to="/">
         <h2>Kevin Huang</h2>
       </Link>
-      <button className="hamburger">
+      <button
+        className="hamburger"
+        onClick={() => {
+          setIsNavExpanded(!isNavExpanded);
+        }}
+      >
         {/* icon from heroicons.com */}
         <svg
           xmlns="http://www.w3.org/2000/svg"
@@ -22,7 +29,11 @@ const Navbar = () => {
           />
         </svg>
       </button>
-      <div className="navigation-menu">
+      <div
+        className={
+          isNavExpanded ? "navigation-menu expanded" : "navigation-menu"
+        }
+      >
         <ul>
           <li>
             <Link to="/home">Home</Link>
