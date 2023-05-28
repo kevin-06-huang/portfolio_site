@@ -1,11 +1,17 @@
 import { createRoot } from "react-dom/client";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { StrictMode } from "react";
 import Navbar from "./components/Navbar";
 
 const App = () => {
   return (
     <StrictMode>
-      <Navbar />
+      <BrowserRouter>
+        <Navbar />
+        <Routes>
+          <Route path="/" />
+        </Routes>
+      </BrowserRouter>
     </StrictMode>
   );
 };
