@@ -1,1 +1,1 @@
-# This is a React App template using Brian Holt's Complete Intro to React Course on Frontend Master
+# This is Kevin Huang's Portfolio Site, deployed on Netlify with CircleCI CI/CD
