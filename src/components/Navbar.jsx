@@ -7,7 +7,12 @@ const Navbar = () => {
   return (
     <nav className="navigation">
       <Link to="/">
-        <h2>Kevin Huang</h2>
+          <img
+            className="swe-logo"
+            src="./assets/software-engineering.png"
+            alt=""
+          />
+          <h2 className="code">Kevin Huang</h2>
       </Link>
       <button
         className="hamburger"
