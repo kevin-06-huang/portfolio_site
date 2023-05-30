@@ -1,0 +1,14 @@
+.intro {
+  margin: auto;
+  width: 70%;
+}
+
+.home-image {
+  display: inline;
+  float: left;
+}
+
+.description {
+  top: 10px;
+ position: relative;
+}
