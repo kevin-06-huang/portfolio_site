@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
-import logoUrl from "../assets/software-engineering.png"
+import logoUrl from "../assets/software-engineering.png";
 import "../stylesheets/navbar.css";
 
 const Navbar = () => {
@@ -8,11 +8,7 @@ const Navbar = () => {
   return (
     <nav className="navigation">
       <Link to="/">
-        <img
-          className="swe-logo"
-          src={logoUrl}
-          alt=""
-        />
+        <img className="swe-logo" src={logoUrl} alt="" />
         <h2 className="code">Kevin Huang</h2>
       </Link>
       <button
