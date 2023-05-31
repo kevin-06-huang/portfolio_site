@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
+import logoUrl from "../assets/software-engineering.png"
 import "../stylesheets/navbar.css";
 
 const Navbar = () => {
@@ -9,7 +10,7 @@ const Navbar = () => {
       <Link to="/">
         <img
           className="swe-logo"
-          src="./assets/software-engineering.png"
+          src={logoUrl}
           alt=""
         />
         <h2 className="code">Kevin Huang</h2>
