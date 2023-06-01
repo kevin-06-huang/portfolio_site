@@ -1,0 +1,7 @@
+{
+  "preset": "vite-jest",
+  "transform": {
+    "^.+\\.(js|jsx)$": "babel-jest"
+  },
+  "extensionsToTreatAsEsm": [".jsx"]
+}
